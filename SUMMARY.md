@@ -10,9 +10,5 @@
 
 ## Troubleshooting
 
-
-
-
-
-
+* [Common errors](troubleshooting/common-errors.md)
 

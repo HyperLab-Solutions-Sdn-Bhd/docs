@@ -34,7 +34,7 @@ dialex.transform('my incorect sentense', 'en')
 If you prefer to **curl**,
 
 ```bash
-$ My first method
+$ curl -XGET 'https://dialexherok.herokuapp.com/api/v1/process?data=my%20incorect%20sentense&lang=en&apikey=67890cd-testerkey-yz12345'
 ```
 
 
@@ -50,6 +50,6 @@ $ My first method
 ```
 
 status - HTTP response code for the operation.
-output - 
+output - The result of the operation can be found inside ```output.result```
 
 {% endmethod %}
