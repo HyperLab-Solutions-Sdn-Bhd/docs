@@ -1,20 +1,17 @@
 {% method %}
-# transform(data, lang, apikey)
+# transform(data, lang)
 
 Dialex takes in a string of words, returning the cleaned up format...
 <br>
 ### Parameters
-data - Place your data here. 
-(*String*)
+data (*String*)
+ - The string you want to process. 
 
-lang - Language of given input, 'en' for English, 'ms' for Malay.
-(**optional**, **default='en'**)
-
-apikey - This is the unique API key generated from your user profile. *Keep it safe!*
-(*String*, **required**)
+lang (**optional**, **default='en'**)
+ - Language of given input, 'en' for English, 'ms' for Malay.
 
 ### Returns
-A ```Promise``` containing the response in ```JSON``` format.
+A `Promise` containing processed string.
 
 <br>
 
@@ -31,25 +28,9 @@ dialex.transform('my incorect sentense', 'en')
     .catch(error => console.log(error));
 ```
 
-If you prefer to **curl**,
-
-```bash
-$ curl -XGET 'https://dialexherok.herokuapp.com/api/v1/process?data=my%20incorect%20sentense&lang=en&apikey=67890cd-testerkey-yz12345'
-```
-
-
 #### Example response
 ``` json
-{
-    "status": 200,
-    "message": "Parse success",
-    "output": {
-        "result": "my incorrect sentence"
-    }
-}
+my incorrect sentence
 ```
-
-status - HTTP response code for the operation.
-output - The result of the operation can be found inside ```output.result```
 
 {% endmethod %}
