@@ -4,11 +4,13 @@
 
 * [Getting Started](README.md)
 
-## Methods
+## API
 
 * [Transform](methods.md)
 
 ## Troubleshooting
 
 * [Common errors](troubleshooting/common-errors.md)
+
+
 
