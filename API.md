@@ -17,7 +17,9 @@ A ```Promise``` containing the response in ```JSON``` format.
 
 <br>
 
+{% common %}
 #### Example request
+
 {% sample lang="js" %}
 Example usage in **Node**
 
@@ -30,13 +32,14 @@ dialex.transform('my incorect sentense', 'en')
     .catch(error => console.log(error));
 ```
 
+{% sample lang="curl" %}
 If you prefer to **curl**
-
 ```bash
 $ curl -XGET 'https://dialexherok.herokuapp.com/api/v1/process?data=my%20incorect%20sentense&lang=en&apikey=67890cd-testerkey-yz12345'
 ```
 
 <br>
+{% common %}
 #### Example response
 ``` json
 {
