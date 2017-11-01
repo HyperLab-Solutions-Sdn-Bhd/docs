@@ -5,7 +5,7 @@ Setting up Dialex is simple and straightforward. We prepared several SDKs for po
 ### Node
 
 ```
-$ npm install --save dialex
+$ npm install --save @hyperlab-solutions/dialex
 ```
 
 Other languages coming soon!

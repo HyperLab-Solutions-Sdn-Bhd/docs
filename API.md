@@ -1,28 +1,26 @@
 {% method %}
-# transform(data, lang, apikey)
+# transform(data, lang)
 
 Method to transform misspelled text into readable text.
-<br>
+
 ### Parameters
 | Parameters |Info |
 | ------------- | ------------- |
-| data| *String*, **required** <br>Place your data here.|
-| lang| *String*, **optional**, **default='en'**<br>Language of given input, 'en' for English, 'ms' for Malay.|
-| apikey| *String*, **required** <br>This is the unique API key generated from your user profile. *Keep it safe!*|
+| data| *String* (**required**) <br>The string you want to process.|
+| lang| *String* (**optional**, **default='en'**)<br>Language of given input, 'en' for English, 'ms' for Malay.|
 
 ### Returns
-A ```Promise``` containing the response in ```JSON``` format.
+A ```Promise``` containing the processed sentence.
 
-<br>
 
 {% common %}
 #### Example request
 
 {% sample lang="js" %}
-Example usage in **Node**
+Usage:
 
 ```js
-const Dialex = require('dialex').Dialex;
+const Dialex = require('@hyperlab-solutions/dialex').Dialex;
 const dialex = new Dialex('67890cd-testerkey-yz12345');
 
 dialex.transform('my incorect sentense', 'en')
@@ -30,30 +28,9 @@ dialex.transform('my incorect sentense', 'en')
     .catch(error => console.log(error));
 ```
 
-{% sample lang="curl" %}
-If you prefer to **curl**
-```bash
-$ curl -XGET 'https://dialexherok.herokuapp.com/api/v1/process?data=my%20incorect%20sentense&lang=en&apikey=67890cd-testerkey-yz12345'
-```
-
-<br>
 {% common %}
 #### Example response
 ``` json
-{
-    "status": 200,
-    "message": "Parse success",
-    "output": {
-        "result": "my incorrect sentence"
-    }
-}
+my incorrect sentence
 ```
-
-##### Response object
-
-| Key |Value |
-| ------------- | ------------- |
-| status  | HTTP response code for the operation.|
-| output  | The result of the operation can be found inside ```output.result```|
-
 {% endmethod %}
