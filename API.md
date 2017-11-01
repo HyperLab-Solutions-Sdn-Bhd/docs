@@ -1,4 +1,4 @@
-{% api %}
+{% method %}
 # transform(data, lang, apikey)
 
 Method to transform misspelled text into readable text.
@@ -55,4 +55,4 @@ $ curl -XGET 'https://dialexherok.herokuapp.com/api/v1/process?data=my%20incorec
 | status  | HTTP response code for the operation.|
 | output  | The result of the operation can be found inside ```output.result```|
 
-{% endapi %}
+{% endmethod %}
