@@ -1,30 +1,55 @@
-# Defining Methods
-
-Methods allow you to smoothly display code examples in different languages.
-
 {% method %}
-## My first method
+# transform(data, lang, apikey)
 
-My first method exposes how to print a message in JavaScript and Go.
+Dialex takes in a string of words, returning the cleaned up format...
+<br>
+### Parameters
+data - Place your data here. 
+(*String*)
 
+lang - Language of given input, 'en' for English, 'ms' for Malay.
+(**optional**, **default='en'**)
+
+apikey - This is the unique API key generated from your user profile. *Keep it safe!*
+(*String*, **required**)
+
+### Returns
+A ```Promise``` containing the response in ```JSON``` format.
+
+<br>
+
+#### Example request
 {% sample lang="js" %}
-Here is how to print a message to `stdout` using JavaScript.
+Example usage in **Node**
 
 ```js
-console.log('My first method');
+const Dialex = require('dialex').Dialex;
+const dialex = new Dialex('67890cd-testerkey-yz12345');
+
+dialex.transform('my incorect sentense', 'en')
+    .then(result => console.log(result))
+    .catch(error => console.log(error));
 ```
 
-{% sample lang="go" %}
-Here is how to print a message to `stdout` using Go.
-
-```go
-fmt.Println("My first method")
-```
-
-{% common %}
-Whatever language you are using, the result will be the same.
+If you prefer to **curl**,
 
 ```bash
 $ My first method
 ```
+
+
+#### Example response
+``` json
+{
+    "status": 200,
+    "message": "Parse success",
+    "output": {
+        "result": "my incorrect sentence"
+    }
+}
+```
+
+status - HTTP response code for the operation.
+output - 
+
 {% endmethod %}

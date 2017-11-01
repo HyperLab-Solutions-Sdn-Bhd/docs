@@ -1,3 +1,12 @@
-# My Awesome API
+# Getting Started
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+Setting up Dialex is simple.
+
+```
+--show code to install--
+```
+
+
+
+
+
