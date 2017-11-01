@@ -1,6 +1,8 @@
 # Getting Started
 
-Setting up Dialex is simple. We prepared several SDKs for popular languages and frameworks.
+Setting up Dialex is simple and straightforward. We prepared several SDKs for popular languages and frameworks.
+
+
 
 ### Node
 

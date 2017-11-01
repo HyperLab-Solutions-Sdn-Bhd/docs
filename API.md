@@ -1,17 +1,16 @@
 {% api %}
 # transform(data, lang, apikey)
 
-Dialex takes in a string of words, returning the cleaned up format...
+Method to transform misspelled text into readable text.
 <br>
 ### Parameters
-data - Place your data here. 
-(*String*)
-
-lang - Language of given input, 'en' for English, 'ms' for Malay.
-(**optional**, **default='en'**)
-
-apikey - This is the unique API key generated from your user profile. *Keep it safe!*
-(*String*, **required**)
+| Parameters |Info |
+| ------------- | ------------- |
+| data  | *String*, **required** <br>Place your data here.|
+| lang  | *String*, **optional**, **default='en'**<br>Language of given input, 'en' for English, 'ms' for Malay.
+ |
+| apikey  | *String*, **required** <br>This is the unique API key generated from your user profile. *Keep it safe!*
+ |
 
 ### Returns
 A ```Promise``` containing the response in ```JSON``` format.
@@ -37,7 +36,7 @@ If you prefer to **curl**
 $ curl -XGET 'https://dialexherok.herokuapp.com/api/v1/process?data=my%20incorect%20sentense&lang=en&apikey=67890cd-testerkey-yz12345'
 ```
 
-
+<br>
 #### Example response
 ``` json
 {
@@ -49,7 +48,11 @@ $ curl -XGET 'https://dialexherok.herokuapp.com/api/v1/process?data=my%20incorec
 }
 ```
 
-status - HTTP response code for the operation.
-output - The result of the operation can be found inside ```output.result```
+##### Response object
+
+| Key |Value |
+| ------------- | ------------- |
+| status  | HTTP response code for the operation.|
+| output  | The result of the operation can be found inside ```output.result```|
 
 {% endapi %}
