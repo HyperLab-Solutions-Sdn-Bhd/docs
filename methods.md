@@ -11,13 +11,11 @@ lang (**optional**, **default='en'**)
  - Language of given input, 'en' for English, 'ms' for Malay.
 
 ### Returns
-A `Promise` containing processed string.
-
-<br>
+A `Promise` containing processed string.  
 
 #### Example request
 {% sample lang="js" %}
-Example usage in **Node**
+Usage:
 
 ```js
 const Dialex = require('dialex').Dialex;
