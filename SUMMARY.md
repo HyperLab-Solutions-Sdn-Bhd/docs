@@ -6,7 +6,7 @@
 
 ## API
 
-* [Transform](methods.md)
+* [Transform](API.md)
 
 ## Troubleshooting
 

@@ -31,7 +31,7 @@ dialex.transform('my incorect sentense', 'en')
     .catch(error => console.log(error));
 ```
 
-If you prefer to **curl**,
+If you prefer to **curl**
 
 ```bash
 $ curl -XGET 'https://dialexherok.herokuapp.com/api/v1/process?data=my%20incorect%20sentense&lang=en&apikey=67890cd-testerkey-yz12345'
