@@ -2,12 +2,10 @@
 
 Setting up Dialex is simple and straightforward. We prepared several SDKs for popular languages and frameworks.
 
-
-
 ### Node
 
 ```
-npm install --save dialex
+$ npm install --save dialex
 ```
 
 Other languages coming soon!

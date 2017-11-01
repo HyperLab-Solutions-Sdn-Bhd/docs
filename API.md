@@ -6,11 +6,9 @@ Method to transform misspelled text into readable text.
 ### Parameters
 | Parameters |Info |
 | ------------- | ------------- |
-| data  | *String*, **required** <br>Place your data here.|
-| lang  | *String*, **optional**, **default='en'**<br>Language of given input, 'en' for English, 'ms' for Malay.
- |
-| apikey  | *String*, **required** <br>This is the unique API key generated from your user profile. *Keep it safe!*
- |
+| data| *String*, **required** <br>Place your data here.|
+| lang| *String*, **optional**, **default='en'**<br>Language of given input, 'en' for English, 'ms' for Malay.|
+| apikey| *String*, **required** <br>This is the unique API key generated from your user profile. *Keep it safe!*|
 
 ### Returns
 A ```Promise``` containing the response in ```JSON``` format.
