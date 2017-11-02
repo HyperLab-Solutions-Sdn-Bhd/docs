@@ -42,7 +42,7 @@ dial.transform('my incorect sentense', 'en')
 ```
 
 {% common %}
-#### Example response
+#### Response
 ``` json
 my incorrect sentence
 ```
