@@ -14,7 +14,7 @@ A ```Promise``` containing the processed sentence.
 
 
 {% common %}
-#### Example request
+#### Example
 
 {% sample lang="js" %}
 **NodeJS:**
