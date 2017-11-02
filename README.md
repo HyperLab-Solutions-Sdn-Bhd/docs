@@ -4,13 +4,15 @@ Setting up Dialex is simple and straightforward. We prepared several SDKs for po
 
 ### Node
 
-```
+```js
 $ npm install --save @hyperlab-solutions/dialex
 ```
 
 ### **Browser**
 
-`<script src="https://cdn.jsdelivr.net/npm/@hyperlab-solutions/dialex/lib/dialex.min.js"></script>`
+```html
+<script src="https://cdn.jsdelivr.net/npm/@hyperlab-solutions/dialex/lib/dialex.min.js"></script>
+```
 
 
 
