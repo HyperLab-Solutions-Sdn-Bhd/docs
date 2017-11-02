@@ -31,7 +31,7 @@ dialex.transform('my incorect sentense', 'en')
 **Browser**  
 
 ```js
-<script src="https://cdn.jsdelivr.net/npm/@hyperlab-solutions/dialex@0.5.0-b/lib/dialex.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@hyperlab-solutions/dialex/lib/dialex.min.js"></script>
 ...
 <script>
 let dial = new dialex.Dialex('67890cd-testerkey-yz12345');
