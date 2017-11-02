@@ -1,18 +1,14 @@
 # Summary
 
-
-
 ## Overview
 
 * [Getting Started](README.md)
 
 ## API
 
-* [Transform](API.md)
+* [transform](API.md)
 
 ## Troubleshooting
 
 * [Common errors](troubleshooting/common-errors.md)
-
-
 
