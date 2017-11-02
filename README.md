@@ -8,17 +8,9 @@ Setting up Dialex is simple and straightforward. We prepared several SDKs for po
 $ npm install --save @hyperlab-solutions/dialex
 ```
 
-Other languages coming soon!
+### **Browser**
 
-### 
-
-### Misc
-
-It is advisable to use one of our provided SDKs for development. Even so, we made the API accessible using HTTP requests.
-
-```
-GET /api/v1/
-```
+`<script src="https://cdn.jsdelivr.net/npm/@hyperlab-solutions/dialex/lib/dialex.min.js"></script>`
 
 
 
