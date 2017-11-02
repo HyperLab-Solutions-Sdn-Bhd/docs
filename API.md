@@ -17,7 +17,7 @@ A ```Promise``` containing the processed sentence.
 #### Example request
 
 {% sample lang="js" %}
-Usage:
+**NodeJS:**
 
 ```js
 const Dialex = require('@hyperlab-solutions/dialex').Dialex;
@@ -26,6 +26,19 @@ const dialex = new Dialex('67890cd-testerkey-yz12345');
 dialex.transform('my incorect sentense', 'en')
     .then(result => console.log(result))
     .catch(error => console.log(error));
+```  
+
+**Browser**  
+
+```js
+<script src="https://cdn.jsdelivr.net/npm/@hyperlab-solutions/dialex@0.5.0-b/lib/dialex.min.js"></script>
+...
+<script>
+let dial = new dialex.Dialex('67890cd-testerkey-yz12345');
+dial.transform('my incorect sentense', 'en')
+    .then(result => console.log(result))
+    .catch(error => console.log(error));
+</script>
 ```
 
 {% common %}
