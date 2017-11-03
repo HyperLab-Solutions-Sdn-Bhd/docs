@@ -14,6 +14,12 @@ $ npm install --save @hyperlab-solutions/dialex
 <script src="https://cdn.jsdelivr.net/npm/@hyperlab-solutions/dialex/lib/dialex.min.js"></script>
 ```
 
+## Python
+
+```py
+# pip install -U dialex
+```
+
 ## Quick Start
 
 ### NodeJS
@@ -31,6 +37,13 @@ const dialex = new Dialex('apiKey');
 <script>
 let dial = new dialex.Dialex('apiKey');
 </script>
+```
+
+### Python
+
+```py
+from dialex import dialex
+dial = dialex.Dialex('apiKey')
 ```
 
 
