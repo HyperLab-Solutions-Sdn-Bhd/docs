@@ -39,6 +39,17 @@ dial.transform('my incorect sentense', 'en')
     .then(result => console.log(result))
     .catch(error => console.log(error));
 </script>
+```  
+
+{%sample lang="python" %}
+**Python:**  
+
+```python
+from dialex import dialex
+
+dial = dialex.Dialex('67890cd-testerkey-yz12345')
+resp = dial.transform('my incorect sentense', 'en')
+print resp
 ```
 
 {% common %}
