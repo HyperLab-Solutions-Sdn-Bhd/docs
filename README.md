@@ -4,7 +4,7 @@ Setting up Dialex is simple and straightforward. We prepared several SDKs for po
 
 ### Node
 
-```js
+```bash
 $ npm install --save @hyperlab-solutions/dialex
 ```
 
@@ -16,8 +16,8 @@ $ npm install --save @hyperlab-solutions/dialex
 
 ## Python
 
-```py
-# pip install -U dialex
+```bash
+pip install -U dialex
 ```
 
 ## Quick Start

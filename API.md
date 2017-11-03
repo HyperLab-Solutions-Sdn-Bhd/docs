@@ -9,10 +9,6 @@ Method to transform misspelled text into readable text.
 | data| *String* (**required**) <br>The string you want to process.|
 | lang| *String* (**optional**, **default='en'**)<br>Language of given input, 'en' for English, 'ms' for Malay.|
 
-### Returns
-A ```Promise``` containing the processed sentence.
-
-
 {% common %}
 #### Example
 
