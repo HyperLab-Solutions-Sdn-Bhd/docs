@@ -20,6 +20,12 @@ $ npm install --save @hyperlab-solutions/dialex
 pip install -U dialex
 ```
 
+## Go
+
+```bash
+go get https://github.com/HyperLab-Solutions-Sdn-Bhd/dialex-sdk-go/dialex
+```
+
 ## Quick Start
 
 ### NodeJS
@@ -44,6 +50,14 @@ let dial = new dialex.Dialex('apiKey');
 ```py
 from dialex import dialex
 dial = dialex.Dialex('apiKey')
+```
+
+## Go
+
+```go
+import "https://github.com/HyperLab-Solutions-Sdn-Bhd/dialex-sdk-go/dialex"
+
+dial := dialex.New("apikey")
 ```
 
 
