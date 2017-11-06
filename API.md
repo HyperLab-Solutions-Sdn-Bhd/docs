@@ -46,7 +46,25 @@ from dialex import dialex
 dial = dialex.Dialex('67890cd-testerkey-yz12345')
 resp = dial.transform('my incorect sentense', 'en')
 print resp
+```  
+
+{%sample lang="go" %}
+**Go:**  
+
+```go
+import "https://github.com/HyperLab-Solutions-Sdn-Bhd/dialex-sdk-go/dialex"
+
+dial := dialex.New("67890cd-testerkey-yz12345")
+resp, err := dial.Transform("my incorect sentense", "en")
+fmt.Println(resp)
 ```
+
+{%sample lang="bash" %}
+**Curl:**  
+
+```bash
+$ curl 'https://dialexherok.herokuapp.com/api/v1/process?apikey=67890cd-testerkey-yz12345&lang=en&data=my%20incorect%20sentense'
+```  
 
 {% common %}
 #### Response
