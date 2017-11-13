@@ -19,7 +19,7 @@
                 },
                 {
                     "lang": "bash",
-                    "name": "Curl"
+                    "name": "cURL"
                 }
             ]
         }
