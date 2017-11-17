@@ -63,7 +63,7 @@ fmt.Println(resp)
 **Curl:**  
 
 ```bash
-$ curl 'https://dialexherok.herokuapp.com/api/v1/process?apikey=67890cd-testerkey-yz12345&lang=en&data=my%20incorect%20sentense'
+$ curl 'https://api.dialex.xyz/api/v1/process?apikey=67890cd-testerkey-yz12345&lang=en&data=my%20incorect%20sentense'
 ```  
 
 {% common %}
