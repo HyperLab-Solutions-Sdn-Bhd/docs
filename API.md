@@ -52,7 +52,7 @@ print resp
 **Go:**  
 
 ```go
-import "https://github.com/HyperLab-Solutions-Sdn-Bhd/dialex-sdk-go/dialex"
+import "github.com/HyperLab-Solutions-Sdn-Bhd/dialex-sdk-go/dialex"
 
 dial := dialex.New("67890cd-testerkey-yz12345")
 resp, err := dial.Transform("my incorect sentense", "en")

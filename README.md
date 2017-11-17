@@ -23,7 +23,7 @@ pip install -U dialex
 ## Go
 
 ```bash
-go get https://github.com/HyperLab-Solutions-Sdn-Bhd/dialex-sdk-go/dialex
+go get github.com/HyperLab-Solutions-Sdn-Bhd/dialex-sdk-go/dialex
 ```
 
 ## Quick Start
@@ -55,7 +55,7 @@ dial = dialex.Dialex('apiKey')
 ## Go
 
 ```go
-import "https://github.com/HyperLab-Solutions-Sdn-Bhd/dialex-sdk-go/dialex"
+import "github.com/HyperLab-Solutions-Sdn-Bhd/dialex-sdk-go/dialex"
 
 dial := dialex.New("apikey")
 ```
