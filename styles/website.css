@@ -3966,7 +3966,6 @@ table {
     color: white;
     background: #5d59ea;
     transition: top .5s ease;
-    background: #fff;
     border-bottom: 1px solid rgba(0, 0, 0, .07);
     border-top: 1px solid rgba(0, 0, 0, .07);
     margin-bottom: 10px;
@@ -4420,7 +4419,8 @@ body {
     top: 0;
     left: 0;
     right: 0;
-    background-color: #FFF;
+    background-color: #21216D;
+    color: #FFF;
     border-bottom: 1px solid rgba(0, 0, 0, .07);
     -webkit-transition: left 250ms ease;
     -moz-transition: left 250ms ease;
